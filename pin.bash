@@ -23,8 +23,8 @@ cmd_pin_usage() {
 	Usage:
 	    $PROGRAM pin generate [--clip,-c] [--in-place,-i | --force,-f] pass-name [pin-length]
 	        Generate an *numeric* pin code of pass-length (or 8 if unspecified)
-		Optionally put it on the clipboard and clear board after $CLIP_TIME seconds.
-		Optionally replace only the first line of an existing file with a new pin.
+	        Optionally put it on the clipboard and clear board after $CLIP_TIME seconds.
+	        Optionally replace only the first line of an existing file with a new pin.
 	_EOF
 	exit 0
 }
