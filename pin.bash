@@ -25,8 +25,6 @@ cmd_pin_usage() {
 	        Generate an *numeric* pin code of pass-length (or 8 if unspecified)
 		Optionally put it on the clipboard and clear board after $CLIP_TIME seconds.
 		Optionally replace only the first line of an existing file with a new pin.
-
-	More information may be found in the pass-pin(1) man page.
 	_EOF
 	exit 0
 }
